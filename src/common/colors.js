@@ -1,0 +1,12 @@
+export const CORE_BG_GRADIENT = `linear-gradient(137.42deg, rgba(156, 112, 79, 0.5) 5%, rgba(156, 112, 79, 0) 93.91%)`;
+export const CORE_BORDER_COLOR = '#9C704F';
+export const COMMON_BG_GRADIENT = `linear-gradient(137.42deg, rgba(255, 255, 255, 0.5) 5%, rgba(255, 255, 255, 0) 93.91%)`;
+export const COMMON_BORDER = '#FFFFFF';
+export const UNCOMMON_BG_GRADIENT = `linear-gradient(135deg, rgba(1, 147, 128, 0.5) 0%, rgba(15, 15, 55, 0) 100%)`;
+export const UNCOMMON_BORDER = '#58D1BD';
+export const RARE_BG_GRADIENT = `linear-gradient(135deg, rgba(55, 119, 255, 0.5) 0%, rgba(15, 15, 55, 0) 100%)`;
+export const RARE_BORDER = '#0A58FF';
+export const EPIC_BG_GRADIENT = `linear-gradient(137.42deg, rgba(123, 97, 255, 0.5) 5%, rgba(15, 15, 55, 0) 93.91%)`;
+export const EPIC_BORDER = '#7D77FC';
+export const LEGENDARY_BG_GRADIENT = `linear-gradient(135deg, rgba(255, 208, 44, 0.5) 0%, rgba(15, 15, 55, 0) 100%)`;
+export const LEGENDARY_BORDER = '#FFD02C';

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Blender';
+  src: url('./assets/fonts/BlenderPro-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('./assets/fonts/Axiforma.ttf');
+}

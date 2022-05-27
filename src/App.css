@@ -1,0 +1,184 @@
+html,
+body {
+  /* width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: auto; */
+}
+
+.main-content {
+  min-height: 100%;
+  height: auto !important;
+}
+
+.btn-wallet-connect {
+  padding: 14px 44px;
+  box-shadow: 0px 28px 42px rgba(250, 85, 255, 0.2);
+}
+
+.swello-progress-bar {
+  height: 14px;
+  background-color: #fa55ff;
+  box-sizing: border-box;
+  /* filter: drop-shadow(0px 100px 80px rgba(250, 85, 255, 0.2)) drop-shadow(0px 41.7776px 33.4221px rgba(250, 85, 255, 0.15)) drop-shadow(0px 22.3363px 17.869px rgba(250, 85, 255, 0.11)) drop-shadow(0px 12.5216px 10.0172px rgba(250, 85, 255, 0.09)) drop-shadow(0px 6.6501px 5.32008px rgba(250, 85, 255, 0.07)) drop-shadow(0px 2.76726px 2.21381px rgba(250, 85, 255, 0.05)); */
+}
+
+.swello-owned-progress-bar {
+  height: 14px;
+  background-color: #6EEFF3;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 100px 80px rgba(250, 85, 255, 0.2)) drop-shadow(0px 41.7776px 33.4221px rgba(250, 85, 255, 0.15)) drop-shadow(0px 22.3363px 17.869px rgba(250, 85, 255, 0.11)) drop-shadow(0px 12.5216px 10.0172px rgba(250, 85, 255, 0.09)) drop-shadow(0px 6.6501px 5.32008px rgba(250, 85, 255, 0.07)) drop-shadow(0px 2.76726px 2.21381px rgba(250, 85, 255, 0.05));
+  border-radius: 3px;
+}
+
+/* .earning-card {
+  margin-left: 10px !important;
+} */
+
+@media only screen and (max-width: 500px) {
+  .earning-card {
+    margin-left: 0px !important;
+  }
+}
+
+/* Circular Progress Bar default override */
+
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: #05050f !important;
+  stroke-linecap: round;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke-linecap: round;
+  top: 0px;
+  transition: stroke-dashoffset 0.5s ease 0s;
+  /* filter: drop-shadow(0px 100px 80px rgba(250, 85, 255, 0.15)) drop-shadow(0px 41.7776px 33.4221px rgba(250, 85, 255, 0.16)) drop-shadow(0px 22.3363px 17.869px rgba(250, 85, 255, 0.13)) drop-shadow(0px 12.5216px 10.0172px rgba(250, 85, 255, 0.11)) drop-shadow(0px 6.6501px 5.32008px rgba(250, 85, 255, 0.09)) drop-shadow(0px 2.76726px 2.21381px rgba(250, 85, 255, 0.06));  */
+}
+
+.progress-1 .CircularProgressbar .CircularProgressbar-path {
+  stroke: #fa55ff !important;
+  filter: drop-shadow(0px 100px 80px rgba(250, 85, 255, 0.15)) drop-shadow(0px 41.7776px 33.4221px rgba(250, 85, 255, 0.16)) drop-shadow(0px 22.3363px 17.869px rgba(250, 85, 255, 0.13)) drop-shadow(0px 12.5216px 10.0172px rgba(250, 85, 255, 0.11)) drop-shadow(0px 6.6501px 5.32008px rgba(250, 85, 255, 0.09)) drop-shadow(0px 2.76726px 2.21381px rgba(250, 85, 255, 0.06));
+}
+
+.progress-2 .CircularProgressbar .CircularProgressbar-path {
+  stroke: #6eeff3 !important;
+  filter: drop-shadow(0px 100px 80px rgba(11, 217, 244, 0.23)) drop-shadow(0px 41.7776px 33.4221px rgba(11, 217, 244, 0.165337)) drop-shadow(0px 22.3363px 17.869px rgba(11, 217, 244, 0.137105)) drop-shadow(0px 12.5216px 10.0172px rgba(11, 217, 244, 0.115)) drop-shadow(0px 6.6501px 5.32008px rgba(11, 217, 244, 0.0928953)) drop-shadow(0px 2.76726px 2.21381px rgba(11, 217, 244, 0.0646635));
+}
+
+.progress-3 .CircularProgressbar .CircularProgressbar-path {
+  stroke: #ffffff !important;
+  filter: drop-shadow(0px 100px 80px rgba(255, 255, 255, 0.11)) drop-shadow(0px 41.7776px 33.4221px rgba(255, 255, 255, 0.08)) drop-shadow(0px 22.3363px 17.869px rgba(255, 255, 255, 0.06)) drop-shadow(0px 12.5216px 10.0172px rgba(255, 255, 255, 0.05)) drop-shadow(0px 6.6501px 5.32008px rgba(255, 255, 255, 0.04)) drop-shadow(0px 2.76726px 2.21381px rgba(255, 255, 255, 0.03));
+}
+
+.swello-trade {
+  padding: 20px;
+  background: #161724;
+  border-radius: 50%;
+}
+
+.mobile-main-btn {
+  background: #000000;
+  box-shadow: 0px 100px 80px rgba(9, 0, 238, 0.17),
+    0px 41.7776px 33.4221px rgba(9, 0, 238, 0.122205),
+    0px 22.3363px 17.869px rgba(9, 0, 238, 0.101338),
+    0px 12.5216px 10.0172px rgba(9, 0, 238, 0.085),
+    0px 6.6501px 5.32008px rgba(9, 0, 238, 0.0686618),
+    0px 2.76726px 2.21381px rgba(9, 0, 238, 0.0477948);
+  border-radius: 18px;
+  filter: blur(20px);
+}
+
+.swello-calculator {
+  background: #161724;
+  border-radius: 20px;
+  box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+}
+
+.swello-input {
+  border-radius: 12px;
+  box-sizing: border-box;
+  border: 2px solid #373743;
+}
+
+.swello-slider .rc-slider-track,
+.swello-slider .rc-slider-rail,
+.swello-slider .rc-slider-step {
+  height: 8.54px;
+  border-radius: 4px;
+  /* background: #FA55FF; */
+}
+
+.swello-slider .rc-slider-handle {
+  width: 20px;
+  height: 20px;
+  margin-top: -6px;
+}
+
+.dashboard-chart>canvas {
+  /* padding-left: 16px !important;
+  padding-right: 16px !important; */
+}
+
+.dashboard-chart {
+  margin-left: 0px !important;
+}
+
+@media only screen and (max-width: 1100px) {
+  .dashboard-chart {
+    margin-left: -15px !important;
+  }
+}
+
+.chart-title {
+  font-family: 'Blender';
+  font-size: 22px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.bg-gradient {
+  background: linear-gradient(312deg, rgba(177, 5, 255, 1) 0%, rgba(255, 20, 209, 1) 49%, rgba(177, 5, 255, 1) 100%);
+  border-radius: 15px;
+}
+
+.swello-market-cap {
+  border-radius: 15px;
+  background: linear-gradient(9deg, rgba(218, 2, 255, 1) 0%, rgba(255, 22, 209, 1) 51%, rgba(193, 109, 252, 1) 100%);
+
+}
+
+.toastProgress {
+  background: #fa55ff !important;
+
+}
+
+.toastBody {
+  color: white;
+  font-family: 'Axiforma';
+  font-size: 14px;
+}
+
+:root {
+  --toastify-color-error: rgb(102, 102, 102) !important;
+}
+
+.Toastify__toast-container {
+  margin-left: 69px !important;
+  border-radius: 15px !important;
+}
+
+@media only screen and (max-width: 500px) {
+  .Toastify__toast-container {
+    width: 80% !important;
+    margin-left: 0px !important;
+    margin-bottom: 96px !important;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .Toastify__toast-container {
+    margin-left: 0px !important;
+    margin-bottom: 96px !important;
+  }
+}
